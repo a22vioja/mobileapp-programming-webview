@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         myWebView = findViewById(R.id.webview);
         myWebView.setWebViewClient(new WebViewClient()); // Do not open in Chrome!
 
-
         WebView myWebView = (WebView) findViewById(R.id.webview);
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
@@ -82,17 +81,16 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
 
-        showInternalWebPage();
-        showExternalWebPage();
-
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_external_web) {
             Log.d("==>","Will display external web page");
+            showExternalWebPage();
             return true;
         }
 
         if (id == R.id.action_internal_web) {
             Log.d("==>","Will display internal web page");
+            showInternalWebPage();
             return true;
         }
 
