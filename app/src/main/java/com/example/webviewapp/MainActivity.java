@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
 
 
-
         /*
         * Rename your App. Tip: Values->Strings +
         * Enable Internet access for your App. Tip: Manifest +
@@ -59,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         * Call the "showExternalWebPage()" / "showInternalWebPage()" methods
           when you select menu options "External Web Page" or "Internal Web Page"
           respectively +
-        -- Commit and push to your github fork
+        -- Commit and push to your github fork+
         * Take two screenshots using the "Take a screenshot" tool in the AVD
            showing your App. One (1) screenshot showing your internal web page and
            one (1) screenshot showing your external web page.
