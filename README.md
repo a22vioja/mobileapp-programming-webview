@@ -72,5 +72,5 @@ and called them.
 
 This is my internal and external pages.
 
-![](internal.png)
-![](external.png)
+![](internal4.png)
+![](external4.png)
